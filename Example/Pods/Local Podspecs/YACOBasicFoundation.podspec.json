@@ -1,0 +1,62 @@
+{
+  "name": "YACOBasicFoundation",
+  "version": "0.1.0",
+  "summary": "YACOBasicFoundation.",
+  "description": "YACOBasicFoundation",
+  "homepage": "https://github.com/LYFGH/YACOBasicFoundation.git",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "LYFGH": "yafei_v5@163.com"
+  },
+  "source": {
+    "git": "https://github.com/LYFGH/YACOBasicFoundation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "frameworks": [
+    "UIKit",
+    "Foundation"
+  ],
+  "subspecs": [
+    {
+      "name": "NSArray",
+      "source_files": "YACOBasicFoundation/Classes/NSArray/**/*.{h,m}",
+      "public_header_files": "YACOBasicFoundation/Classes/NSArray/**/*.h"
+    },
+    {
+      "name": "NSData",
+      "source_files": "YACOBasicFoundation/Classes/NSData/**/*.{h,m}",
+      "public_header_files": "YACOBasicFoundation/Classes/NSData/**/*.h"
+    },
+    {
+      "name": "NSDate",
+      "source_files": "YACOBasicFoundation/Classes/NSDate/**/*.{h,m}",
+      "public_header_files": "YACOBasicFoundation/Classes/NSDate/**/*.h"
+    },
+    {
+      "name": "NSDictionary",
+      "source_files": "YACOBasicFoundation/Classes/NSDictionary/**/*.{h,m}",
+      "public_header_files": "YACOBasicFoundation/Classes/NSDictionary/**/*.h"
+    },
+    {
+      "name": "NSNotificationCenter",
+      "source_files": "YACOBasicFoundation/Classes/NSNotificationCenter/**/*.{h,m}",
+      "public_header_files": "YACOBasicFoundation/Classes/NSNotificationCenter/**/*.h"
+    },
+    {
+      "name": "NSString",
+      "source_files": "YACOBasicFoundation/Classes/NSString/**/*.{h,m}",
+      "public_header_files": "YACOBasicFoundation/Classes/NSString/**/*.h"
+    },
+    {
+      "name": "NSTimer",
+      "source_files": "YACOBasicFoundation/Classes/NSTimer/**/*.{h,m}",
+      "public_header_files": "YACOBasicFoundation/Classes/NSTimer/**/*.h"
+    }
+  ]
+}

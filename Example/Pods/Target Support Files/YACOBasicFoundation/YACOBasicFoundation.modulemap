@@ -1,0 +1,6 @@
+framework module YACOBasicFoundation {
+  umbrella header "YACOBasicFoundation-umbrella.h"
+
+  export *
+  module * { export * }
+}

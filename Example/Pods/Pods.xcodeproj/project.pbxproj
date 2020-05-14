@@ -1,0 +1,905 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B0441E1CF227ECBE3925643049AFB98 /* Pods-YACOBasicFoundation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 182B7C41B6EAE8F3F24D9A6E86F47F68 /* Pods-YACOBasicFoundation_Tests-dummy.m */; };
+		23454EAFC4D6B013E483C14FAD887B7C /* NSData+YACOData.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA0A3EED03BB1F5AB80E223624EDA95 /* NSData+YACOData.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		256A1548BF78676AE6686B378127531E /* NSNotificationCenter+YACONoti.m in Sources */ = {isa = PBXBuildFile; fileRef = 5951CCFE708BBB1267E70BB27A04E136 /* NSNotificationCenter+YACONoti.m */; };
+		2AF6831C20E942C781E175A284214780 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		316DC498EDA11B53942753589BE9C580 /* NSString+YACOString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4697DAFD25696A7996BBE1E20CB0444D /* NSString+YACOString.m */; };
+		31EEA37E9B9CA5EE858CDC4DBB2E277B /* NSMutableDictionary+YACODic.m in Sources */ = {isa = PBXBuildFile; fileRef = D86AB1E394BA1C87CC91861B8A4835A6 /* NSMutableDictionary+YACODic.m */; };
+		36E8A14E94F87CDAC6F4A850A7B3E442 /* NSArray+YACOArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 55C40A7D0AF5C65132C47F96F484E28B /* NSArray+YACOArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		418703E406B96808AC743FD44217E13F /* NSString+YACOString.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F4AD704F1C6DDDA725CB2E05FA740EE /* NSString+YACOString.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48F05FAAC97B44758E20689EDBE9B953 /* YACOBasicFoundation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B3919CD890A5BFB9D8BBC45B7F14DFB5 /* YACOBasicFoundation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C151359D41D1F3CD6EDC98CE0519D90 /* NSMutableArray+YACOArray.m in Sources */ = {isa = PBXBuildFile; fileRef = 642B5AD3DE48312F5A09F5DC619C4CA1 /* NSMutableArray+YACOArray.m */; };
+		4C95EC5538B94C9FB0F0E8C0564C9491 /* NSDictionary+YACODic.h in Headers */ = {isa = PBXBuildFile; fileRef = F026AF3E6033C5261379BD98D0B8EC68 /* NSDictionary+YACODic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		51D9017936C612ADE680A48D94364A9C /* NSData+YACOData.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2B922E9A8927CE058BB429B669D329 /* NSData+YACOData.m */; };
+		5C1039273E50CE75F7BC3CEA9E6A87B0 /* NSDateFormatter+YACODate.h in Headers */ = {isa = PBXBuildFile; fileRef = C20754A70CDD3774267A95A4FC0110B7 /* NSDateFormatter+YACODate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		603926A34981EC203A16CAABACCB3A97 /* NSMutableArray+YACOArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 013C7189741A13B2BA96CDCB272A8BE0 /* NSMutableArray+YACOArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AAC5481C5A195DEE68D3F2EF595C078 /* Pods-YACOBasicFoundation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9902C1D496486825AC290465ECB8B07C /* Pods-YACOBasicFoundation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89359786826FF4F5B9D0EE819C09F47E /* NSMutableDictionary+YACODic.h in Headers */ = {isa = PBXBuildFile; fileRef = A3E0175F12754CF8F42BA2E45F0AB0C4 /* NSMutableDictionary+YACODic.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B61F6C9FB1BE96972C8E24AEB2F129E6 /* Pods-YACOBasicFoundation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3F6E7088242C686C62CF0B019575B36B /* Pods-YACOBasicFoundation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B97C2C01948D8D2D2846920A12A4E572 /* NSDateFormatter+YACODate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9961CAB7FE7D81A95F969BCA6C942E44 /* NSDateFormatter+YACODate.m */; };
+		B99F9720C002FD553DBAEA14A0E6D688 /* YACOWeakTimer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1018687CE4003CCFE2390431CE69BB6F /* YACOWeakTimer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD12AB195DE9EE16B75C1B3D78D844BC /* YACOBasicFoundation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E64A8B2504DB4C6633718210C919DFD0 /* YACOBasicFoundation-dummy.m */; };
+		C2410D178DB2E1F37A6C49E48DC67A6C /* NSDate+YACODate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D37F8770B96C474AA1B8FE07A1FE873 /* NSDate+YACODate.m */; };
+		C5865C4E88457F396100D625EF4A829B /* NSArray+YACOArray.m in Sources */ = {isa = PBXBuildFile; fileRef = BBD6F2D0ADF4207F003C95BAAC966BA8 /* NSArray+YACOArray.m */; };
+		C71F81E370EB2AB229C4F6C3527B1D68 /* NSNotificationCenter+YACONoti.h in Headers */ = {isa = PBXBuildFile; fileRef = 57A38DDD7C3C4A0210FF20BB8BF3F982 /* NSNotificationCenter+YACONoti.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CE455115B31F9CBA9BBD347D36F73EB3 /* Pods-YACOBasicFoundation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 72FA3D3FD59945A47FF5CDCC2C7BED1D /* Pods-YACOBasicFoundation_Example-dummy.m */; };
+		D987BB63B4D541C5B5C6C33F92396848 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */; };
+		D98C601F5967041F32E25F84C4126C57 /* NSDictionary+YACODic.m in Sources */ = {isa = PBXBuildFile; fileRef = ACE9BAB6E38C34AC2A73ABD05A6E3514 /* NSDictionary+YACODic.m */; };
+		E437182BEEB0DEEBB6B2AD99A8D09556 /* NSDate+YACODate.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC3A3F1508744FA96B47E8A17B5B1DB /* NSDate+YACODate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB12BE683DF395CD304C067EC298877A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		F9BB6672C844CE3C2C56C850DCE3A941 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		FBCEBD5A98BA6556B8B4EE6DCB6D35AF /* YACOWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 31FA49D9FDEBEC95AACB8D1BB06162EF /* YACOWeakTimer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8CCC09752827E5AFE3B7BD9F929283F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ACD4499D46EC460040D82BFDDD56F497;
+			remoteInfo = "Pods-YACOBasicFoundation_Example";
+		};
+		90B07498AC5BC60E9CE561D2BC942908 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFD3121B52BEFA792BF817EBAE11F65C;
+			remoteInfo = YACOBasicFoundation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		013C7189741A13B2BA96CDCB272A8BE0 /* NSMutableArray+YACOArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+YACOArray.h"; path = "YACOBasicFoundation/Classes/NSArray/NSMutableArray+YACOArray.h"; sourceTree = "<group>"; };
+		03BC2F78EBCCB1FC3E7FD75F5EE90179 /* Pods-YACOBasicFoundation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOBasicFoundation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		07D8CC537B22411220FDBE5168CE957B /* YACOBasicFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YACOBasicFoundation-prefix.pch"; sourceTree = "<group>"; };
+		08001F793D44677CD4C149731C482915 /* YACOBasicFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YACOBasicFoundation.modulemap; sourceTree = "<group>"; };
+		0EF7A8CEE0E63D7E2BAF7C6C65AD3A7C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1018687CE4003CCFE2390431CE69BB6F /* YACOWeakTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YACOWeakTimer.h; path = YACOBasicFoundation/Classes/NSTimer/YACOWeakTimer.h; sourceTree = "<group>"; };
+		12C0DDD2B40763525903EDF5D96C7073 /* Pods-YACOBasicFoundation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YACOBasicFoundation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		182B7C41B6EAE8F3F24D9A6E86F47F68 /* Pods-YACOBasicFoundation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YACOBasicFoundation_Tests-dummy.m"; sourceTree = "<group>"; };
+		1D37F8770B96C474AA1B8FE07A1FE873 /* NSDate+YACODate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+YACODate.m"; path = "YACOBasicFoundation/Classes/NSDate/NSDate+YACODate.m"; sourceTree = "<group>"; };
+		2DA9E30236D693CC6B1EDB824BBD92CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2F4AD704F1C6DDDA725CB2E05FA740EE /* NSString+YACOString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+YACOString.h"; path = "YACOBasicFoundation/Classes/NSString/NSString+YACOString.h"; sourceTree = "<group>"; };
+		31FA49D9FDEBEC95AACB8D1BB06162EF /* YACOWeakTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YACOWeakTimer.m; path = YACOBasicFoundation/Classes/NSTimer/YACOWeakTimer.m; sourceTree = "<group>"; };
+		34B651D629C02AD1F83509A1D2854C41 /* Pods_YACOBasicFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YACOBasicFoundation_Example.framework; path = "Pods-YACOBasicFoundation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6E7088242C686C62CF0B019575B36B /* Pods-YACOBasicFoundation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YACOBasicFoundation_Example-umbrella.h"; sourceTree = "<group>"; };
+		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4697DAFD25696A7996BBE1E20CB0444D /* NSString+YACOString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+YACOString.m"; path = "YACOBasicFoundation/Classes/NSString/NSString+YACOString.m"; sourceTree = "<group>"; };
+		4DC3A3F1508744FA96B47E8A17B5B1DB /* NSDate+YACODate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+YACODate.h"; path = "YACOBasicFoundation/Classes/NSDate/NSDate+YACODate.h"; sourceTree = "<group>"; };
+		55C40A7D0AF5C65132C47F96F484E28B /* NSArray+YACOArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+YACOArray.h"; path = "YACOBasicFoundation/Classes/NSArray/NSArray+YACOArray.h"; sourceTree = "<group>"; };
+		55E6A149CC2B90DF9F5A950675BE4C1A /* YACOBasicFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YACOBasicFoundation.xcconfig; sourceTree = "<group>"; };
+		563606B8C603AD6B32FEACF5C97236F2 /* YACOBasicFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YACOBasicFoundation.framework; path = YACOBasicFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		57A38DDD7C3C4A0210FF20BB8BF3F982 /* NSNotificationCenter+YACONoti.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+YACONoti.h"; path = "YACOBasicFoundation/Classes/NSNotificationCenter/NSNotificationCenter+YACONoti.h"; sourceTree = "<group>"; };
+		5951CCFE708BBB1267E70BB27A04E136 /* NSNotificationCenter+YACONoti.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+YACONoti.m"; path = "YACOBasicFoundation/Classes/NSNotificationCenter/NSNotificationCenter+YACONoti.m"; sourceTree = "<group>"; };
+		642B5AD3DE48312F5A09F5DC619C4CA1 /* NSMutableArray+YACOArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+YACOArray.m"; path = "YACOBasicFoundation/Classes/NSArray/NSMutableArray+YACOArray.m"; sourceTree = "<group>"; };
+		7120DA8400A34A5583094E334A8487C4 /* Pods-YACOBasicFoundation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YACOBasicFoundation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		72FA3D3FD59945A47FF5CDCC2C7BED1D /* Pods-YACOBasicFoundation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YACOBasicFoundation_Example-dummy.m"; sourceTree = "<group>"; };
+		76C4ADDF6FEF810225715697B716F62D /* YACOBasicFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YACOBasicFoundation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		83BFB1E2E90F7478BE0DEC0C770B9B6B /* Pods-YACOBasicFoundation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOBasicFoundation_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		8C4A5F098AE972EFE461CC7F1DCC3D6B /* Pods-YACOBasicFoundation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YACOBasicFoundation_Example.modulemap"; sourceTree = "<group>"; };
+		8FA0A3EED03BB1F5AB80E223624EDA95 /* NSData+YACOData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+YACOData.h"; path = "YACOBasicFoundation/Classes/NSData/NSData+YACOData.h"; sourceTree = "<group>"; };
+		937A2256EA02CA573EC40A9545D5BD4B /* Pods-YACOBasicFoundation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YACOBasicFoundation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		98081A0E1E8169F441B3FC3924DFA251 /* Pods-YACOBasicFoundation_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YACOBasicFoundation_Tests-Info.plist"; sourceTree = "<group>"; };
+		9902C1D496486825AC290465ECB8B07C /* Pods-YACOBasicFoundation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YACOBasicFoundation_Tests-umbrella.h"; sourceTree = "<group>"; };
+		9961CAB7FE7D81A95F969BCA6C942E44 /* NSDateFormatter+YACODate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+YACODate.m"; path = "YACOBasicFoundation/Classes/NSDate/NSDateFormatter+YACODate.m"; sourceTree = "<group>"; };
+		99BBCF5E8479A5869759D99B945B7B34 /* Pods-YACOBasicFoundation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YACOBasicFoundation_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3E0175F12754CF8F42BA2E45F0AB0C4 /* NSMutableDictionary+YACODic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+YACODic.h"; path = "YACOBasicFoundation/Classes/NSDictionary/NSMutableDictionary+YACODic.h"; sourceTree = "<group>"; };
+		ACE9BAB6E38C34AC2A73ABD05A6E3514 /* NSDictionary+YACODic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+YACODic.m"; path = "YACOBasicFoundation/Classes/NSDictionary/NSDictionary+YACODic.m"; sourceTree = "<group>"; };
+		AF7917D6B6E55A71A1DEF8C471F0D03D /* Pods_YACOBasicFoundation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YACOBasicFoundation_Tests.framework; path = "Pods-YACOBasicFoundation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3919CD890A5BFB9D8BBC45B7F14DFB5 /* YACOBasicFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YACOBasicFoundation-umbrella.h"; sourceTree = "<group>"; };
+		BBD6F2D0ADF4207F003C95BAAC966BA8 /* NSArray+YACOArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+YACOArray.m"; path = "YACOBasicFoundation/Classes/NSArray/NSArray+YACOArray.m"; sourceTree = "<group>"; };
+		C20754A70CDD3774267A95A4FC0110B7 /* NSDateFormatter+YACODate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+YACODate.h"; path = "YACOBasicFoundation/Classes/NSDate/NSDateFormatter+YACODate.h"; sourceTree = "<group>"; };
+		CE97BE8ECE0BEF5C98F903B98839E917 /* Pods-YACOBasicFoundation_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YACOBasicFoundation_Example-Info.plist"; sourceTree = "<group>"; };
+		D86AB1E394BA1C87CC91861B8A4835A6 /* NSMutableDictionary+YACODic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+YACODic.m"; path = "YACOBasicFoundation/Classes/NSDictionary/NSMutableDictionary+YACODic.m"; sourceTree = "<group>"; };
+		DE0D0BE9D85D922CD85A62241240E216 /* Pods-YACOBasicFoundation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOBasicFoundation_Example.release.xcconfig"; sourceTree = "<group>"; };
+		DEBC64D4343374584BF627881385966F /* Pods-YACOBasicFoundation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YACOBasicFoundation_Tests.modulemap"; sourceTree = "<group>"; };
+		E64A8B2504DB4C6633718210C919DFD0 /* YACOBasicFoundation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YACOBasicFoundation-dummy.m"; sourceTree = "<group>"; };
+		ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EF78F219292E26E6F55082DFC9D7EE55 /* Pods-YACOBasicFoundation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YACOBasicFoundation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F026AF3E6033C5261379BD98D0B8EC68 /* NSDictionary+YACODic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+YACODic.h"; path = "YACOBasicFoundation/Classes/NSDictionary/NSDictionary+YACODic.h"; sourceTree = "<group>"; };
+		F4936DC94550926B18611CA9F99F975C /* Pods-YACOBasicFoundation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOBasicFoundation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F82771A6BB4C0A1CE48322BF6DC6C4AD /* YACOBasicFoundation-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "YACOBasicFoundation-Info.plist"; sourceTree = "<group>"; };
+		FE2B922E9A8927CE058BB429B669D329 /* NSData+YACOData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+YACOData.m"; path = "YACOBasicFoundation/Classes/NSData/NSData+YACOData.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		48D3E9923E0BA6B52333D12ABF6D9425 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF6831C20E942C781E175A284214780 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		724DA8C95278F2D7AC3D71A4D7D6DBF1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9BB6672C844CE3C2C56C850DCE3A941 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D76DA2DE296684B133FAFBF6174AA241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB12BE683DF395CD304C067EC298877A /* Foundation.framework in Frameworks */,
+				D987BB63B4D541C5B5C6C33F92396848 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05732724A7A79324C512EE494AB45A7E /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				8FA0A3EED03BB1F5AB80E223624EDA95 /* NSData+YACOData.h */,
+				FE2B922E9A8927CE058BB429B669D329 /* NSData+YACOData.m */,
+			);
+			name = NSData;
+			sourceTree = "<group>";
+		};
+		0895B3EADDFCA0A3EADCC706CF54A8B3 /* Pods-YACOBasicFoundation_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				DEBC64D4343374584BF627881385966F /* Pods-YACOBasicFoundation_Tests.modulemap */,
+				EF78F219292E26E6F55082DFC9D7EE55 /* Pods-YACOBasicFoundation_Tests-acknowledgements.markdown */,
+				7120DA8400A34A5583094E334A8487C4 /* Pods-YACOBasicFoundation_Tests-acknowledgements.plist */,
+				182B7C41B6EAE8F3F24D9A6E86F47F68 /* Pods-YACOBasicFoundation_Tests-dummy.m */,
+				98081A0E1E8169F441B3FC3924DFA251 /* Pods-YACOBasicFoundation_Tests-Info.plist */,
+				9902C1D496486825AC290465ECB8B07C /* Pods-YACOBasicFoundation_Tests-umbrella.h */,
+				F4936DC94550926B18611CA9F99F975C /* Pods-YACOBasicFoundation_Tests.debug.xcconfig */,
+				03BC2F78EBCCB1FC3E7FD75F5EE90179 /* Pods-YACOBasicFoundation_Tests.release.xcconfig */,
+			);
+			name = "Pods-YACOBasicFoundation_Tests";
+			path = "Target Support Files/Pods-YACOBasicFoundation_Tests";
+			sourceTree = "<group>";
+		};
+		0C3514E835A8020E6264E629A173E350 /* Pods-YACOBasicFoundation_Example */ = {
+			isa = PBXGroup;
+			children = (
+				8C4A5F098AE972EFE461CC7F1DCC3D6B /* Pods-YACOBasicFoundation_Example.modulemap */,
+				12C0DDD2B40763525903EDF5D96C7073 /* Pods-YACOBasicFoundation_Example-acknowledgements.markdown */,
+				937A2256EA02CA573EC40A9545D5BD4B /* Pods-YACOBasicFoundation_Example-acknowledgements.plist */,
+				72FA3D3FD59945A47FF5CDCC2C7BED1D /* Pods-YACOBasicFoundation_Example-dummy.m */,
+				99BBCF5E8479A5869759D99B945B7B34 /* Pods-YACOBasicFoundation_Example-frameworks.sh */,
+				CE97BE8ECE0BEF5C98F903B98839E917 /* Pods-YACOBasicFoundation_Example-Info.plist */,
+				3F6E7088242C686C62CF0B019575B36B /* Pods-YACOBasicFoundation_Example-umbrella.h */,
+				83BFB1E2E90F7478BE0DEC0C770B9B6B /* Pods-YACOBasicFoundation_Example.debug.xcconfig */,
+				DE0D0BE9D85D922CD85A62241240E216 /* Pods-YACOBasicFoundation_Example.release.xcconfig */,
+			);
+			name = "Pods-YACOBasicFoundation_Example";
+			path = "Target Support Files/Pods-YACOBasicFoundation_Example";
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E169A450ED27AC725DF52953F66D11E0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2717AD8994EDC488B31E684990474163 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				4DC3A3F1508744FA96B47E8A17B5B1DB /* NSDate+YACODate.h */,
+				1D37F8770B96C474AA1B8FE07A1FE873 /* NSDate+YACODate.m */,
+				C20754A70CDD3774267A95A4FC0110B7 /* NSDateFormatter+YACODate.h */,
+				9961CAB7FE7D81A95F969BCA6C942E44 /* NSDateFormatter+YACODate.m */,
+			);
+			name = NSDate;
+			sourceTree = "<group>";
+		};
+		2D2509D0DDBBB8E0359C4CFFC6B1DA78 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				55C40A7D0AF5C65132C47F96F484E28B /* NSArray+YACOArray.h */,
+				BBD6F2D0ADF4207F003C95BAAC966BA8 /* NSArray+YACOArray.m */,
+				013C7189741A13B2BA96CDCB272A8BE0 /* NSMutableArray+YACOArray.h */,
+				642B5AD3DE48312F5A09F5DC619C4CA1 /* NSMutableArray+YACOArray.m */,
+			);
+			name = NSArray;
+			sourceTree = "<group>";
+		};
+		30A88A8AABA9ED05D93A5775229D3C0D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C3514E835A8020E6264E629A173E350 /* Pods-YACOBasicFoundation_Example */,
+				0895B3EADDFCA0A3EADCC706CF54A8B3 /* Pods-YACOBasicFoundation_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		39F5A12C22FDD48D08637E3FF379C218 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				08001F793D44677CD4C149731C482915 /* YACOBasicFoundation.modulemap */,
+				55E6A149CC2B90DF9F5A950675BE4C1A /* YACOBasicFoundation.xcconfig */,
+				E64A8B2504DB4C6633718210C919DFD0 /* YACOBasicFoundation-dummy.m */,
+				F82771A6BB4C0A1CE48322BF6DC6C4AD /* YACOBasicFoundation-Info.plist */,
+				07D8CC537B22411220FDBE5168CE957B /* YACOBasicFoundation-prefix.pch */,
+				B3919CD890A5BFB9D8BBC45B7F14DFB5 /* YACOBasicFoundation-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/YACOBasicFoundation";
+			sourceTree = "<group>";
+		};
+		3C9CA319322E18DE3FF8A8C44206EE06 /* NSNotificationCenter */ = {
+			isa = PBXGroup;
+			children = (
+				57A38DDD7C3C4A0210FF20BB8BF3F982 /* NSNotificationCenter+YACONoti.h */,
+				5951CCFE708BBB1267E70BB27A04E136 /* NSNotificationCenter+YACONoti.m */,
+			);
+			name = NSNotificationCenter;
+			sourceTree = "<group>";
+		};
+		3E23DFED85DA90E5E9A2B30303F95412 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				F026AF3E6033C5261379BD98D0B8EC68 /* NSDictionary+YACODic.h */,
+				ACE9BAB6E38C34AC2A73ABD05A6E3514 /* NSDictionary+YACODic.m */,
+				A3E0175F12754CF8F42BA2E45F0AB0C4 /* NSMutableDictionary+YACODic.h */,
+				D86AB1E394BA1C87CC91861B8A4835A6 /* NSMutableDictionary+YACODic.m */,
+			);
+			name = NSDictionary;
+			sourceTree = "<group>";
+		};
+		5EFDF8EF8488D03E5923C28FB8792BF0 /* YACOBasicFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				2D2509D0DDBBB8E0359C4CFFC6B1DA78 /* NSArray */,
+				05732724A7A79324C512EE494AB45A7E /* NSData */,
+				2717AD8994EDC488B31E684990474163 /* NSDate */,
+				3E23DFED85DA90E5E9A2B30303F95412 /* NSDictionary */,
+				3C9CA319322E18DE3FF8A8C44206EE06 /* NSNotificationCenter */,
+				84535DEB1E2409F46A466A1656B1F063 /* NSString */,
+				86CFE45A8F7C5422A8BB7BEC359C6EA8 /* NSTimer */,
+				F194F70F0803C0B8958DC7F7474F94DE /* Pod */,
+				39F5A12C22FDD48D08637E3FF379C218 /* Support Files */,
+			);
+			name = YACOBasicFoundation;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		84535DEB1E2409F46A466A1656B1F063 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				2F4AD704F1C6DDDA725CB2E05FA740EE /* NSString+YACOString.h */,
+				4697DAFD25696A7996BBE1E20CB0444D /* NSString+YACOString.m */,
+			);
+			name = NSString;
+			sourceTree = "<group>";
+		};
+		867D5152FEB4A95785B2F02D7D8E28CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34B651D629C02AD1F83509A1D2854C41 /* Pods_YACOBasicFoundation_Example.framework */,
+				AF7917D6B6E55A71A1DEF8C471F0D03D /* Pods_YACOBasicFoundation_Tests.framework */,
+				563606B8C603AD6B32FEACF5C97236F2 /* YACOBasicFoundation.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		86CFE45A8F7C5422A8BB7BEC359C6EA8 /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				1018687CE4003CCFE2390431CE69BB6F /* YACOWeakTimer.h */,
+				31FA49D9FDEBEC95AACB8D1BB06162EF /* YACOWeakTimer.m */,
+			);
+			name = NSTimer;
+			sourceTree = "<group>";
+		};
+		C2CEF2D42BBFAE3C1F70A73F58D784DF /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5EFDF8EF8488D03E5923C28FB8792BF0 /* YACOBasicFoundation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C2CEF2D42BBFAE3C1F70A73F58D784DF /* Development Pods */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				867D5152FEB4A95785B2F02D7D8E28CD /* Products */,
+				30A88A8AABA9ED05D93A5775229D3C0D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E169A450ED27AC725DF52953F66D11E0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */,
+				ECF2A2B0720AE923C22BED3192888BE0 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F194F70F0803C0B8958DC7F7474F94DE /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2DA9E30236D693CC6B1EDB824BBD92CE /* LICENSE */,
+				0EF7A8CEE0E63D7E2BAF7C6C65AD3A7C /* README.md */,
+				76C4ADDF6FEF810225715697B716F62D /* YACOBasicFoundation.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		02A7229E4234ADCB3B4CA9676080FB1F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B61F6C9FB1BE96972C8E24AEB2F129E6 /* Pods-YACOBasicFoundation_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32882D8EC4BB2EA7B64BBE19F8093CC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				36E8A14E94F87CDAC6F4A850A7B3E442 /* NSArray+YACOArray.h in Headers */,
+				23454EAFC4D6B013E483C14FAD887B7C /* NSData+YACOData.h in Headers */,
+				E437182BEEB0DEEBB6B2AD99A8D09556 /* NSDate+YACODate.h in Headers */,
+				5C1039273E50CE75F7BC3CEA9E6A87B0 /* NSDateFormatter+YACODate.h in Headers */,
+				4C95EC5538B94C9FB0F0E8C0564C9491 /* NSDictionary+YACODic.h in Headers */,
+				603926A34981EC203A16CAABACCB3A97 /* NSMutableArray+YACOArray.h in Headers */,
+				89359786826FF4F5B9D0EE819C09F47E /* NSMutableDictionary+YACODic.h in Headers */,
+				C71F81E370EB2AB229C4F6C3527B1D68 /* NSNotificationCenter+YACONoti.h in Headers */,
+				418703E406B96808AC743FD44217E13F /* NSString+YACOString.h in Headers */,
+				48F05FAAC97B44758E20689EDBE9B953 /* YACOBasicFoundation-umbrella.h in Headers */,
+				B99F9720C002FD553DBAEA14A0E6D688 /* YACOWeakTimer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC4A5C31143957D2BDFC1787E61207EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AAC5481C5A195DEE68D3F2EF595C078 /* Pods-YACOBasicFoundation_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A83E79EF8B151879EAFE27F2847DF571 /* Pods-YACOBasicFoundation_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33CA2EF0584A08B3F6AEF1D8DB4630E4 /* Build configuration list for PBXNativeTarget "Pods-YACOBasicFoundation_Tests" */;
+			buildPhases = (
+				FC4A5C31143957D2BDFC1787E61207EA /* Headers */,
+				DD874DD1F4E756BCB68F14DD016EB588 /* Sources */,
+				724DA8C95278F2D7AC3D71A4D7D6DBF1 /* Frameworks */,
+				555A4664D0689ACE267D8CB421C923B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				21E9FD48E4865DB8DE532CB2BCE14F5A /* PBXTargetDependency */,
+			);
+			name = "Pods-YACOBasicFoundation_Tests";
+			productName = "Pods-YACOBasicFoundation_Tests";
+			productReference = AF7917D6B6E55A71A1DEF8C471F0D03D /* Pods_YACOBasicFoundation_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		ACD4499D46EC460040D82BFDDD56F497 /* Pods-YACOBasicFoundation_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF16354738FAD57C2F6F44A89613C2A6 /* Build configuration list for PBXNativeTarget "Pods-YACOBasicFoundation_Example" */;
+			buildPhases = (
+				02A7229E4234ADCB3B4CA9676080FB1F /* Headers */,
+				810AA8C21B38DBF1DE762D191AB3A33F /* Sources */,
+				48D3E9923E0BA6B52333D12ABF6D9425 /* Frameworks */,
+				3520E566E95B38E1F2A32080BCC16514 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7D0CB230A7F53EB50C9A971129BA046B /* PBXTargetDependency */,
+			);
+			name = "Pods-YACOBasicFoundation_Example";
+			productName = "Pods-YACOBasicFoundation_Example";
+			productReference = 34B651D629C02AD1F83509A1D2854C41 /* Pods_YACOBasicFoundation_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EFD3121B52BEFA792BF817EBAE11F65C /* YACOBasicFoundation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A04574A19C71785C293107DFC241BAC /* Build configuration list for PBXNativeTarget "YACOBasicFoundation" */;
+			buildPhases = (
+				B32882D8EC4BB2EA7B64BBE19F8093CC /* Headers */,
+				82F3391C206E307729A25B74B7EBABB7 /* Sources */,
+				D76DA2DE296684B133FAFBF6174AA241 /* Frameworks */,
+				0AD222C98BA151B0A5524AC0C692A376 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YACOBasicFoundation;
+			productName = YACOBasicFoundation;
+			productReference = 563606B8C603AD6B32FEACF5C97236F2 /* YACOBasicFoundation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 867D5152FEB4A95785B2F02D7D8E28CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ACD4499D46EC460040D82BFDDD56F497 /* Pods-YACOBasicFoundation_Example */,
+				A83E79EF8B151879EAFE27F2847DF571 /* Pods-YACOBasicFoundation_Tests */,
+				EFD3121B52BEFA792BF817EBAE11F65C /* YACOBasicFoundation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0AD222C98BA151B0A5524AC0C692A376 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3520E566E95B38E1F2A32080BCC16514 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		555A4664D0689ACE267D8CB421C923B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		810AA8C21B38DBF1DE762D191AB3A33F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE455115B31F9CBA9BBD347D36F73EB3 /* Pods-YACOBasicFoundation_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		82F3391C206E307729A25B74B7EBABB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5865C4E88457F396100D625EF4A829B /* NSArray+YACOArray.m in Sources */,
+				51D9017936C612ADE680A48D94364A9C /* NSData+YACOData.m in Sources */,
+				C2410D178DB2E1F37A6C49E48DC67A6C /* NSDate+YACODate.m in Sources */,
+				B97C2C01948D8D2D2846920A12A4E572 /* NSDateFormatter+YACODate.m in Sources */,
+				D98C601F5967041F32E25F84C4126C57 /* NSDictionary+YACODic.m in Sources */,
+				4C151359D41D1F3CD6EDC98CE0519D90 /* NSMutableArray+YACOArray.m in Sources */,
+				31EEA37E9B9CA5EE858CDC4DBB2E277B /* NSMutableDictionary+YACODic.m in Sources */,
+				256A1548BF78676AE6686B378127531E /* NSNotificationCenter+YACONoti.m in Sources */,
+				316DC498EDA11B53942753589BE9C580 /* NSString+YACOString.m in Sources */,
+				BD12AB195DE9EE16B75C1B3D78D844BC /* YACOBasicFoundation-dummy.m in Sources */,
+				FBCEBD5A98BA6556B8B4EE6DCB6D35AF /* YACOWeakTimer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD874DD1F4E756BCB68F14DD016EB588 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B0441E1CF227ECBE3925643049AFB98 /* Pods-YACOBasicFoundation_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		21E9FD48E4865DB8DE532CB2BCE14F5A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-YACOBasicFoundation_Example";
+			target = ACD4499D46EC460040D82BFDDD56F497 /* Pods-YACOBasicFoundation_Example */;
+			targetProxy = 8CCC09752827E5AFE3B7BD9F929283F8 /* PBXContainerItemProxy */;
+		};
+		7D0CB230A7F53EB50C9A971129BA046B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YACOBasicFoundation;
+			target = EFD3121B52BEFA792BF817EBAE11F65C /* YACOBasicFoundation */;
+			targetProxy = 90B07498AC5BC60E9CE561D2BC942908 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		397A551D303A282593387D5B1F5CF00C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55E6A149CC2B90DF9F5A950675BE4C1A /* YACOBasicFoundation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YACOBasicFoundation/YACOBasicFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YACOBasicFoundation/YACOBasicFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YACOBasicFoundation/YACOBasicFoundation.modulemap";
+				PRODUCT_MODULE_NAME = YACOBasicFoundation;
+				PRODUCT_NAME = YACOBasicFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4E2E921456975875818B0DD081D41BCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4936DC94550926B18611CA9F99F975C /* Pods-YACOBasicFoundation_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YACOBasicFoundation_Tests/Pods-YACOBasicFoundation_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YACOBasicFoundation_Tests/Pods-YACOBasicFoundation_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		721EA4CCF6514CD18E18C64243310C67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03BC2F78EBCCB1FC3E7FD75F5EE90179 /* Pods-YACOBasicFoundation_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YACOBasicFoundation_Tests/Pods-YACOBasicFoundation_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YACOBasicFoundation_Tests/Pods-YACOBasicFoundation_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		796F464070E7E793217E3A6E8AA9D602 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83BFB1E2E90F7478BE0DEC0C770B9B6B /* Pods-YACOBasicFoundation_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YACOBasicFoundation_Example/Pods-YACOBasicFoundation_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YACOBasicFoundation_Example/Pods-YACOBasicFoundation_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CE1773808C10FDD9C15F73422884A529 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE0D0BE9D85D922CD85A62241240E216 /* Pods-YACOBasicFoundation_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-YACOBasicFoundation_Example/Pods-YACOBasicFoundation_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-YACOBasicFoundation_Example/Pods-YACOBasicFoundation_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FEA302AF30C754B1DCC303A43A38312A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55E6A149CC2B90DF9F5A950675BE4C1A /* YACOBasicFoundation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/YACOBasicFoundation/YACOBasicFoundation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YACOBasicFoundation/YACOBasicFoundation-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YACOBasicFoundation/YACOBasicFoundation.modulemap";
+				PRODUCT_MODULE_NAME = YACOBasicFoundation;
+				PRODUCT_NAME = YACOBasicFoundation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A04574A19C71785C293107DFC241BAC /* Build configuration list for PBXNativeTarget "YACOBasicFoundation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEA302AF30C754B1DCC303A43A38312A /* Debug */,
+				397A551D303A282593387D5B1F5CF00C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33CA2EF0584A08B3F6AEF1D8DB4630E4 /* Build configuration list for PBXNativeTarget "Pods-YACOBasicFoundation_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E2E921456975875818B0DD081D41BCD /* Debug */,
+				721EA4CCF6514CD18E18C64243310C67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF16354738FAD57C2F6F44A89613C2A6 /* Build configuration list for PBXNativeTarget "Pods-YACOBasicFoundation_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				796F464070E7E793217E3A6E8AA9D602 /* Debug */,
+				CE1773808C10FDD9C15F73422884A529 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

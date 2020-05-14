@@ -1,0 +1,30 @@
+PODS:
+  - YACOBasicFoundation (0.1.0):
+    - YACOBasicFoundation/NSArray (= 0.1.0)
+    - YACOBasicFoundation/NSData (= 0.1.0)
+    - YACOBasicFoundation/NSDate (= 0.1.0)
+    - YACOBasicFoundation/NSDictionary (= 0.1.0)
+    - YACOBasicFoundation/NSNotificationCenter (= 0.1.0)
+    - YACOBasicFoundation/NSString (= 0.1.0)
+    - YACOBasicFoundation/NSTimer (= 0.1.0)
+  - YACOBasicFoundation/NSArray (0.1.0)
+  - YACOBasicFoundation/NSData (0.1.0)
+  - YACOBasicFoundation/NSDate (0.1.0)
+  - YACOBasicFoundation/NSDictionary (0.1.0)
+  - YACOBasicFoundation/NSNotificationCenter (0.1.0)
+  - YACOBasicFoundation/NSString (0.1.0)
+  - YACOBasicFoundation/NSTimer (0.1.0)
+
+DEPENDENCIES:
+  - YACOBasicFoundation (from `../`)
+
+EXTERNAL SOURCES:
+  YACOBasicFoundation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  YACOBasicFoundation: 6fe4f0bf1023e2cb031d56b0c22a336443851a13
+
+PODFILE CHECKSUM: b9d5220ee79ffcb790b74e6b8659dc5a002f251f
+
+COCOAPODS: 1.6.1
