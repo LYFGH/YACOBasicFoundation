@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YACOBasicFoundation'
-  s.version          = '0.1.1'
+  s.version          = '0.1.3'
   s.summary          = 'YACOBasicFoundation.'
 
 # This description is used to generate tags and improve search results.
@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   
   s.frameworks = 'UIKit', 'Foundation'
   
-  
+  s.source_files = 'YACOBasicUIKit/Classes/YACOBasicFoundation.h'
   
   
   s.subspec 'NSArray' do |nSArray|

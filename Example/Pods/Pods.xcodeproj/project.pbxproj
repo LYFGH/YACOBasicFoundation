@@ -11,6 +11,7 @@
 		23454EAFC4D6B013E483C14FAD887B7C /* NSData+YACOData.h in Headers */ = {isa = PBXBuildFile; fileRef = 8FA0A3EED03BB1F5AB80E223624EDA95 /* NSData+YACOData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		256A1548BF78676AE6686B378127531E /* NSNotificationCenter+YACONoti.m in Sources */ = {isa = PBXBuildFile; fileRef = 5951CCFE708BBB1267E70BB27A04E136 /* NSNotificationCenter+YACONoti.m */; };
 		2AF6831C20E942C781E175A284214780 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */; };
+		3066E2F3246CFD1E00BEA32B /* YACOBasicFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 3066E2F2246CFD1E00BEA32B /* YACOBasicFoundation.h */; };
 		316DC498EDA11B53942753589BE9C580 /* NSString+YACOString.m in Sources */ = {isa = PBXBuildFile; fileRef = 4697DAFD25696A7996BBE1E20CB0444D /* NSString+YACOString.m */; };
 		31EEA37E9B9CA5EE858CDC4DBB2E277B /* NSMutableDictionary+YACODic.m in Sources */ = {isa = PBXBuildFile; fileRef = D86AB1E394BA1C87CC91861B8A4835A6 /* NSMutableDictionary+YACODic.m */; };
 		36E8A14E94F87CDAC6F4A850A7B3E442 /* NSArray+YACOArray.h in Headers */ = {isa = PBXBuildFile; fileRef = 55C40A7D0AF5C65132C47F96F484E28B /* NSArray+YACOArray.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -61,28 +62,29 @@
 		03BC2F78EBCCB1FC3E7FD75F5EE90179 /* Pods-YACOBasicFoundation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOBasicFoundation_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		07D8CC537B22411220FDBE5168CE957B /* YACOBasicFoundation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YACOBasicFoundation-prefix.pch"; sourceTree = "<group>"; };
 		08001F793D44677CD4C149731C482915 /* YACOBasicFoundation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = YACOBasicFoundation.modulemap; sourceTree = "<group>"; };
-		0EF7A8CEE0E63D7E2BAF7C6C65AD3A7C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0EF7A8CEE0E63D7E2BAF7C6C65AD3A7C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		1018687CE4003CCFE2390431CE69BB6F /* YACOWeakTimer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YACOWeakTimer.h; path = YACOBasicFoundation/Classes/NSTimer/YACOWeakTimer.h; sourceTree = "<group>"; };
 		12C0DDD2B40763525903EDF5D96C7073 /* Pods-YACOBasicFoundation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YACOBasicFoundation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		182B7C41B6EAE8F3F24D9A6E86F47F68 /* Pods-YACOBasicFoundation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YACOBasicFoundation_Tests-dummy.m"; sourceTree = "<group>"; };
 		1D37F8770B96C474AA1B8FE07A1FE873 /* NSDate+YACODate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+YACODate.m"; path = "YACOBasicFoundation/Classes/NSDate/NSDate+YACODate.m"; sourceTree = "<group>"; };
-		2DA9E30236D693CC6B1EDB824BBD92CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		2DA9E30236D693CC6B1EDB824BBD92CE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2F4AD704F1C6DDDA725CB2E05FA740EE /* NSString+YACOString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+YACOString.h"; path = "YACOBasicFoundation/Classes/NSString/NSString+YACOString.h"; sourceTree = "<group>"; };
+		3066E2F2246CFD1E00BEA32B /* YACOBasicFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = YACOBasicFoundation.h; path = YACOBasicFoundation/Classes/YACOBasicFoundation.h; sourceTree = "<group>"; };
 		31FA49D9FDEBEC95AACB8D1BB06162EF /* YACOWeakTimer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YACOWeakTimer.m; path = YACOBasicFoundation/Classes/NSTimer/YACOWeakTimer.m; sourceTree = "<group>"; };
-		34B651D629C02AD1F83509A1D2854C41 /* Pods_YACOBasicFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YACOBasicFoundation_Example.framework; path = "Pods-YACOBasicFoundation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		34B651D629C02AD1F83509A1D2854C41 /* Pods_YACOBasicFoundation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YACOBasicFoundation_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F6E7088242C686C62CF0B019575B36B /* Pods-YACOBasicFoundation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YACOBasicFoundation_Example-umbrella.h"; sourceTree = "<group>"; };
 		40CB39E715FBCDAA142E6513E126200A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		4697DAFD25696A7996BBE1E20CB0444D /* NSString+YACOString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+YACOString.m"; path = "YACOBasicFoundation/Classes/NSString/NSString+YACOString.m"; sourceTree = "<group>"; };
 		4DC3A3F1508744FA96B47E8A17B5B1DB /* NSDate+YACODate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+YACODate.h"; path = "YACOBasicFoundation/Classes/NSDate/NSDate+YACODate.h"; sourceTree = "<group>"; };
 		55C40A7D0AF5C65132C47F96F484E28B /* NSArray+YACOArray.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+YACOArray.h"; path = "YACOBasicFoundation/Classes/NSArray/NSArray+YACOArray.h"; sourceTree = "<group>"; };
 		55E6A149CC2B90DF9F5A950675BE4C1A /* YACOBasicFoundation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YACOBasicFoundation.xcconfig; sourceTree = "<group>"; };
-		563606B8C603AD6B32FEACF5C97236F2 /* YACOBasicFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = YACOBasicFoundation.framework; path = YACOBasicFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		563606B8C603AD6B32FEACF5C97236F2 /* YACOBasicFoundation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YACOBasicFoundation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57A38DDD7C3C4A0210FF20BB8BF3F982 /* NSNotificationCenter+YACONoti.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+YACONoti.h"; path = "YACOBasicFoundation/Classes/NSNotificationCenter/NSNotificationCenter+YACONoti.h"; sourceTree = "<group>"; };
 		5951CCFE708BBB1267E70BB27A04E136 /* NSNotificationCenter+YACONoti.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+YACONoti.m"; path = "YACOBasicFoundation/Classes/NSNotificationCenter/NSNotificationCenter+YACONoti.m"; sourceTree = "<group>"; };
 		642B5AD3DE48312F5A09F5DC619C4CA1 /* NSMutableArray+YACOArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+YACOArray.m"; path = "YACOBasicFoundation/Classes/NSArray/NSMutableArray+YACOArray.m"; sourceTree = "<group>"; };
 		7120DA8400A34A5583094E334A8487C4 /* Pods-YACOBasicFoundation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YACOBasicFoundation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		72FA3D3FD59945A47FF5CDCC2C7BED1D /* Pods-YACOBasicFoundation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YACOBasicFoundation_Example-dummy.m"; sourceTree = "<group>"; };
-		76C4ADDF6FEF810225715697B716F62D /* YACOBasicFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = YACOBasicFoundation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		76C4ADDF6FEF810225715697B716F62D /* YACOBasicFoundation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = YACOBasicFoundation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		83BFB1E2E90F7478BE0DEC0C770B9B6B /* Pods-YACOBasicFoundation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YACOBasicFoundation_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		8C4A5F098AE972EFE461CC7F1DCC3D6B /* Pods-YACOBasicFoundation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-YACOBasicFoundation_Example.modulemap"; sourceTree = "<group>"; };
 		8FA0A3EED03BB1F5AB80E223624EDA95 /* NSData+YACOData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+YACOData.h"; path = "YACOBasicFoundation/Classes/NSData/NSData+YACOData.h"; sourceTree = "<group>"; };
@@ -91,10 +93,10 @@
 		9902C1D496486825AC290465ECB8B07C /* Pods-YACOBasicFoundation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-YACOBasicFoundation_Tests-umbrella.h"; sourceTree = "<group>"; };
 		9961CAB7FE7D81A95F969BCA6C942E44 /* NSDateFormatter+YACODate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDateFormatter+YACODate.m"; path = "YACOBasicFoundation/Classes/NSDate/NSDateFormatter+YACODate.m"; sourceTree = "<group>"; };
 		99BBCF5E8479A5869759D99B945B7B34 /* Pods-YACOBasicFoundation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YACOBasicFoundation_Example-frameworks.sh"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3E0175F12754CF8F42BA2E45F0AB0C4 /* NSMutableDictionary+YACODic.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+YACODic.h"; path = "YACOBasicFoundation/Classes/NSDictionary/NSMutableDictionary+YACODic.h"; sourceTree = "<group>"; };
 		ACE9BAB6E38C34AC2A73ABD05A6E3514 /* NSDictionary+YACODic.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+YACODic.m"; path = "YACOBasicFoundation/Classes/NSDictionary/NSDictionary+YACODic.m"; sourceTree = "<group>"; };
-		AF7917D6B6E55A71A1DEF8C471F0D03D /* Pods_YACOBasicFoundation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_YACOBasicFoundation_Tests.framework; path = "Pods-YACOBasicFoundation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF7917D6B6E55A71A1DEF8C471F0D03D /* Pods_YACOBasicFoundation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YACOBasicFoundation_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3919CD890A5BFB9D8BBC45B7F14DFB5 /* YACOBasicFoundation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YACOBasicFoundation-umbrella.h"; sourceTree = "<group>"; };
 		BBD6F2D0ADF4207F003C95BAAC966BA8 /* NSArray+YACOArray.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+YACOArray.m"; path = "YACOBasicFoundation/Classes/NSArray/NSArray+YACOArray.m"; sourceTree = "<group>"; };
 		C20754A70CDD3774267A95A4FC0110B7 /* NSDateFormatter+YACODate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDateFormatter+YACODate.h"; path = "YACOBasicFoundation/Classes/NSDate/NSDateFormatter+YACODate.h"; sourceTree = "<group>"; };
@@ -267,6 +269,7 @@
 				86CFE45A8F7C5422A8BB7BEC359C6EA8 /* NSTimer */,
 				F194F70F0803C0B8958DC7F7474F94DE /* Pod */,
 				39F5A12C22FDD48D08637E3FF379C218 /* Support Files */,
+				3066E2F2246CFD1E00BEA32B /* YACOBasicFoundation.h */,
 			);
 			name = YACOBasicFoundation;
 			path = ../..;
@@ -356,6 +359,7 @@
 				36E8A14E94F87CDAC6F4A850A7B3E442 /* NSArray+YACOArray.h in Headers */,
 				23454EAFC4D6B013E483C14FAD887B7C /* NSData+YACOData.h in Headers */,
 				E437182BEEB0DEEBB6B2AD99A8D09556 /* NSDate+YACODate.h in Headers */,
+				3066E2F3246CFD1E00BEA32B /* YACOBasicFoundation.h in Headers */,
 				5C1039273E50CE75F7BC3CEA9E6A87B0 /* NSDateFormatter+YACODate.h in Headers */,
 				4C95EC5538B94C9FB0F0E8C0564C9491 /* NSDictionary+YACODic.h in Headers */,
 				603926A34981EC203A16CAABACCB3A97 /* NSMutableArray+YACOArray.h in Headers */,
@@ -448,6 +452,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
@@ -592,8 +597,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
