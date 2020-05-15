@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'YACOBasicFoundation'
-  s.version          = '0.1.3'
+  s.version          = '0.1.4'
   s.summary          = 'YACOBasicFoundation.'
 
 # This description is used to generate tags and improve search results.
@@ -31,44 +31,44 @@ Pod::Spec.new do |s|
   
   s.frameworks = 'UIKit', 'Foundation'
   
-  s.source_files = 'YACOBasicUIKit/Classes/YACOBasicFoundation.h'
+  s.source_files = 'YACOBasicFoundation/Classes/**/*'
+  s.static_framework = true
   
-  
-  s.subspec 'NSArray' do |nSArray|
-    nSArray.source_files = 'YACOBasicFoundation/Classes/NSArray/**/*.{h,m}'
-    nSArray.public_header_files = 'YACOBasicFoundation/Classes/NSArray/**/*.h'
-  end
-  
-  
-  s.subspec 'NSData' do |nSData|
-    nSData.source_files = 'YACOBasicFoundation/Classes/NSData/**/*.{h,m}'
-    nSData.public_header_files = 'YACOBasicFoundation/Classes/NSData/**/*.h'
-  end
-  
-  s.subspec 'NSDate' do |nSDate|
-    nSDate.source_files = 'YACOBasicFoundation/Classes/NSDate/**/*.{h,m}'
-    nSDate.public_header_files = 'YACOBasicFoundation/Classes/NSDate/**/*.h'
-  end
-  
-  s.subspec 'NSDictionary' do |nSDictionary|
-    nSDictionary.source_files = 'YACOBasicFoundation/Classes/NSDictionary/**/*.{h,m}'
-    nSDictionary.public_header_files = 'YACOBasicFoundation/Classes/NSDictionary/**/*.h'
-  end
-  
-  s.subspec 'NSNotificationCenter' do |nSNotificationCenter|
-    nSNotificationCenter.source_files = 'YACOBasicFoundation/Classes/NSNotificationCenter/**/*.{h,m}'
-    nSNotificationCenter.public_header_files = 'YACOBasicFoundation/Classes/NSNotificationCenter/**/*.h'
-  end
-  
-  s.subspec 'NSString' do |nSString|
-    nSString.source_files = 'YACOBasicFoundation/Classes/NSString/**/*.{h,m}'
-    nSString.public_header_files = 'YACOBasicFoundation/Classes/NSString/**/*.h'
-  end
-  
-  s.subspec 'NSTimer' do |nSTimer|
-    nSTimer.source_files = 'YACOBasicFoundation/Classes/NSTimer/**/*.{h,m}'
-    nSTimer.public_header_files = 'YACOBasicFoundation/Classes/NSTimer/**/*.h'
-  end
+#  s.subspec 'NSArray' do |nSArray|
+#    nSArray.source_files = 'YACOBasicFoundation/Classes/NSArray/**/*.{h,m}'
+#    nSArray.public_header_files = 'YACOBasicFoundation/Classes/NSArray/**/*.h'
+#  end
+#
+#
+#  s.subspec 'NSData' do |nSData|
+#    nSData.source_files = 'YACOBasicFoundation/Classes/NSData/**/*.{h,m}'
+#    nSData.public_header_files = 'YACOBasicFoundation/Classes/NSData/**/*.h'
+#  end
+#
+#  s.subspec 'NSDate' do |nSDate|
+#    nSDate.source_files = 'YACOBasicFoundation/Classes/NSDate/**/*.{h,m}'
+#    nSDate.public_header_files = 'YACOBasicFoundation/Classes/NSDate/**/*.h'
+#  end
+#
+#  s.subspec 'NSDictionary' do |nSDictionary|
+#    nSDictionary.source_files = 'YACOBasicFoundation/Classes/NSDictionary/**/*.{h,m}'
+#    nSDictionary.public_header_files = 'YACOBasicFoundation/Classes/NSDictionary/**/*.h'
+#  end
+#
+#  s.subspec 'NSNotificationCenter' do |nSNotificationCenter|
+#    nSNotificationCenter.source_files = 'YACOBasicFoundation/Classes/NSNotificationCenter/**/*.{h,m}'
+#    nSNotificationCenter.public_header_files = 'YACOBasicFoundation/Classes/NSNotificationCenter/**/*.h'
+#  end
+#
+#  s.subspec 'NSString' do |nSString|
+#    nSString.source_files = 'YACOBasicFoundation/Classes/NSString/**/*.{h,m}'
+#    nSString.public_header_files = 'YACOBasicFoundation/Classes/NSString/**/*.h'
+#  end
+#
+#  s.subspec 'NSTimer' do |nSTimer|
+#    nSTimer.source_files = 'YACOBasicFoundation/Classes/NSTimer/**/*.{h,m}'
+#    nSTimer.public_header_files = 'YACOBasicFoundation/Classes/NSTimer/**/*.h'
+#  end
   
   
   # s.resource_bundles = {
